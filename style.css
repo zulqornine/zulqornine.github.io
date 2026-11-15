@@ -610,5 +610,21 @@ img:hover {
 .hero {
   -webkit-mask-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9IiNGRjAwNjYiIGQ9Ik00NS4yLC03OS43QzU4LC03MC44LDY3LjYsLTU3LjcsNzQuOCwtNDMuN0M4MiwtMjkuNyw4Ni45LC0xNC44LDg4LjQsMC45Qzg5LjksMTYuNiw4OCwzMy4yLDgwLjksNDcuMkM3My43LDYxLjMsNjEuMyw3Myw0Ni45LDc5LjVDMzIuNiw4Ni4xLDE2LjMsODcuNiwwLjQsODYuOUMtMTUuNSw4Ni4zLC0zMS4xLDgzLjUsLTQ1LjQsNzYuOUMtNTkuNiw3MC4zLC03Mi43LDU5LjksLTgwLjIsNDYuNEMtODcuNywzMywtODkuNywxNi41LC04OC4zLDAuOEMtODYuOSwtMTQuOSwtODIuMiwtMjkuOCwtNzQuNywtNDMuNEMtNjcuMywtNTYuOSwtNTcuMSwtNjkuMiwtNDQuMiwtNzguMUMtMzEuMywtODcsLTE1LjcsLTkyLjUsMC4yLC05M0MxNi4xLC05My40LDMyLjMsLTg4LjYsNDUuMiwtNzkuN1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMCAxMDApIiAvPgo8L3N2Zz4K) ;
 }
-  
+
+/* ===== Tombol hero ===== */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-buttons a {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .hero-buttons a {
+    width: 100%;
+  }
+}
 
